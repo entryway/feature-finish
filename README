@@ -1,1 +1,6 @@
 A simple script to finish a git flow feature branch using your current feature branch.
+
+# install
+Download the script
+Change the permissions to executable
+Drop it in your path
