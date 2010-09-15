@@ -1,6 +1,5 @@
 A simple script to finish a git flow feature branch using your current feature branch.
 
-# install
-Download the script
-Change the permissions to executable
-Drop it in your path
+# install with sudo
+
+sudo curl -O --silent http://github.com/entryway/feature-finish/raw/master/feature-finish && sudo mv feature-finish /usr/local/bin && sudo chmod +x /usr/local/bin/feature-finish
