@@ -1,0 +1,5 @@
+#! /usr/bin/env ruby
+
+branch_with_prefix = `git branch | grep "*"`
+branch_without_prefix = branch_with_prefix.sub("* feature/", "")
+puts `git flow feature finish #{branch_without_prefix}`
